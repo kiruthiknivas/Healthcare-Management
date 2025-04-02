@@ -1,0 +1,35 @@
+
+  <!-- Splash Screen -->
+  <div class="splash-screen" id="splashScreen">
+    <div class="splash-content">
+        <h1>Hi, {{ patientName }}!</h1>
+    </div>
+</div>
+<div class="dashboard-container">
+    <!-- Scrolling Banner -->
+    <div class="banner">
+      <marquee behavior="scroll" direction="left">Welcome to CITY Hospital | Quality Care, Compassionate Service</marquee>
+    </div>
+  
+    <div class="dashboard-card">
+      <h1>Welcome to Your Dashboard</h1>
+      <h2>Hi, {{ patientName }}</h2>
+  
+      <!-- Feature Buttons -->
+      <div class="dashboard-buttons">
+        <button class="btn" (click)="navigateToAppointment()">📅 Book Appointment</button>
+        <button class="btn" (click)="viewPrescriptions()">💊 View Prescription</button>
+        <button class="btn" (click)="makePayment()">Make Payment</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    // JavaScript to handle splash screen display
+    window.onload = function () {
+        setTimeout(function () {
+            document.getElementById('splashScreen').style.display = 'none';
+            document.getElementById('dashboardContainer').style.display = 'flex';
+        }, 4000); // 2 seconds
+    };
+</script>
+  

@@ -1,0 +1,16 @@
+<div class="container">
+    <h2>Write Prescription</h2>
+    <div class="form-group">
+      <label for="appointment">Select Appointment:</label>
+      <select id="appointment" [(ngModel)]="selectedAppointmentId">
+        <option *ngFor="let appointment of appointments" [value]="appointment.appointmentID">AppointmentID {{ appointment.appointmentID }}- PatientID {{appointment.patientID}} - Summary: {{appointment.summary}}</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="prescription">Prescription:</label>
+      <textarea id="prescription" [(ngModel)]="prescriptionText"></textarea>
+    </div>
+    <button (click)="submitPrescription()">Submit Prescription</button>
+  </div>
+
+  

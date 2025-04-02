@@ -1,0 +1,10 @@
+<div class="container">
+    <h2>View Prescriptions</h2>
+    <div class="prescription-card" *ngFor="let prescription of prescriptions">
+      <div class="prescription-details">
+        <p><strong>Prescription ID:</strong> {{ prescription.prescriptionID }}</p>
+        <p><strong>Appointment ID:</strong> {{ prescription.appointmentID }}</p>
+        <p><strong>Prescription Text:</strong> {{ prescription.prescriptionText }}</p>
+      </div>
+    </div>
+  </div>

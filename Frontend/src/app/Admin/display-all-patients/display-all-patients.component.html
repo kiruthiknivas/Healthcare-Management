@@ -1,0 +1,9 @@
+<div class="patients-container">
+    <h2>All Patients</h2>
+    <ul>
+      <li *ngFor="let patient of patients">
+        <span>{{ patient.firstName + " "+patient.lastName}} - {{patient.email}}</span>
+        <button (click)="deletePatient(patient.patientID)">Delete</button>
+      </li>
+    </ul>
+  </div>

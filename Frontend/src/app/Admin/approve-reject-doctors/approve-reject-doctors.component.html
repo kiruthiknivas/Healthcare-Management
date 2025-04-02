@@ -1,0 +1,10 @@
+<div class="doctors-container">
+    <h2>Unapproved Doctors</h2>
+    <ul>
+      <li *ngFor="let doctor of unapprovedDoctors">
+        <span>{{ doctor.drName }} - {{doctor.specialization}} - Lisense No: {{doctor.licenseNo}}</span>
+        <button (click)="approveDoctor(doctor.doctorID)">Approve</button>
+        <button (click)="rejectDoctor(doctor.doctorID)">Reject</button>
+      </li>
+    </ul>
+  </div>

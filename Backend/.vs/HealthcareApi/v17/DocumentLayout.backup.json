@@ -1,0 +1,743 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\dtos\\patientlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:dtos\\patientlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\helper\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:helper\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\controllers\\patitentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:controllers\\patitentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\repositories\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:repositories\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\repositories\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:repositories\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\services\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:services\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\dtos\\adminlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:dtos\\adminlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\dtos\\doctorlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:dtos\\doctorlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\dtos\\prescriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:dtos\\prescriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\dtos\\appointmentapprovaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:dtos\\appointmentapprovaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\dtos\\doctorregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:dtos\\doctorregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\dtos\\approvaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:dtos\\approvaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\services\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:services\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\repositories\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:repositories\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\smsservice\\smsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:smsservice\\smsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2368618\\source\\repos\\HealthcareApi\\Migrations\\20250119164507_demo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2368618\\source\\repos\\HealthcareApi\\Migrations\\20250119163432_demo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\dtos\\patientregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:dtos\\patientregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2368618\\source\\repos\\HealthcareApi\\Migrations\\20250108051646_demo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2368618\\source\\repos\\HealthcareApi\\Migrations\\20250108051606_demo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2368618\\source\\repos\\HealthcareApi\\Migrations\\20250108051349_demo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\healthcareapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:healthcareapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|c:\\users\\2368618\\downloads\\healthcareapi-backend\\healthcareapi\\migrations\\20250314091429_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D261059-D8BE-49BC-903F-B8C906BF39EF}|HealthcareApi.csproj|solutionrelative:migrations\\20250314091429_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:09:47.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T05:07:32.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\PatientLoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\PatientLoginDto.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\PatientLoginDto.cs",
+              "RelativeToolTip": "DTOs\\PatientLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T05:04:18.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoctorsController.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Controllers\\DoctorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoctorsController.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Controllers\\DoctorsController.cs",
+              "RelativeToolTip": "Controllers\\DoctorsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwC0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T06:52:26.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "Models\\Appointment.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Models\\Appointment.cs",
+              "RelativeToolTip": "Models\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T04:40:28.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T05:13:32.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-08T05:12:35.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Helper\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\JwtHelper.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Helper\\JwtHelper.cs",
+              "RelativeToolTip": "Helper\\JwtHelper.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T09:08:13.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwF4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T10:04:21.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Models\\Doctor.cs",
+              "RelativeToolTip": "Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T04:37:20.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20250314091429_test.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Migrations\\20250314091429_test.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250314091429_test.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Migrations\\20250314091429_test.cs",
+              "RelativeToolTip": "Migrations\\20250314091429_test.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAQwG4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T09:14:30.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PatitentsController.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Controllers\\PatitentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatitentsController.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Controllers\\PatitentsController.cs",
+              "RelativeToolTip": "Controllers\\PatitentsController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T09:02:11.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Repositories\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PatientRepository.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Repositories\\PatientRepository.cs",
+              "RelativeToolTip": "Repositories\\PatientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T07:10:38.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Repositories\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IAdminRepository.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Repositories\\IAdminRepository.cs",
+              "RelativeToolTip": "Repositories\\IAdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T06:39:23.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Services\\AdminService.cs",
+              "RelativeToolTip": "Services\\AdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T06:42:27.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IDoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Repositories\\IDoctorRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IDoctorRepository.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Repositories\\IDoctorRepository.cs",
+              "RelativeToolTip": "Repositories\\IDoctorRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T06:57:41.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IDoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Services\\IDoctorService.cs",
+              "RelativeDocumentMoniker": "Services\\IDoctorService.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Services\\IDoctorService.cs",
+              "RelativeToolTip": "Services\\IDoctorService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T07:00:35.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "Services\\DoctorService.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Services\\DoctorService.cs",
+              "RelativeToolTip": "Services\\DoctorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T07:01:55.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\AdminLoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminLoginDto.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\AdminLoginDto.cs",
+              "RelativeToolTip": "DTOs\\AdminLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:13:40.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DoctorLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\DoctorLoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DoctorLoginDto.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\DoctorLoginDto.cs",
+              "RelativeToolTip": "DTOs\\DoctorLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:14:21.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PrescriptionDto.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\PrescriptionDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\PrescriptionDto.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\PrescriptionDto.cs",
+              "RelativeToolTip": "DTOs\\PrescriptionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T17:27:50.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppointmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\AppointmentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AppointmentDto.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\AppointmentDto.cs",
+              "RelativeToolTip": "DTOs\\AppointmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:13:58.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppointmentApprovalDto.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\AppointmentApprovalDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AppointmentApprovalDto.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\AppointmentApprovalDto.cs",
+              "RelativeToolTip": "DTOs\\AppointmentApprovalDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:13:48.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Repositories\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DoctorRepository.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Repositories\\DoctorRepository.cs",
+              "RelativeToolTip": "Repositories\\DoctorRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA+wDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T06:59:10.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "Services\\PatientService.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Services\\PatientService.cs",
+              "RelativeToolTip": "Services\\PatientService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADUAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T07:11:34.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DoctorRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\DoctorRegisterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DoctorRegisterDto.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\DoctorRegisterDto.cs",
+              "RelativeToolTip": "DTOs\\DoctorRegisterDto.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA/wBUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:14:30.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ApprovalDto.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\ApprovalDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ApprovalDto.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\ApprovalDto.cs",
+              "RelativeToolTip": "DTOs\\ApprovalDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:14:12.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Repositories\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Repositories\\AdminRepository.cs",
+              "RelativeToolTip": "Repositories\\AdminRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAswDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T06:40:26.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Models\\Prescription.cs",
+              "RelativeDocumentMoniker": "Models\\Prescription.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Models\\Prescription.cs",
+              "RelativeToolTip": "Models\\Prescription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T04:41:58.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T04:42:35.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Models\\Patient.cs",
+              "RelativeToolTip": "Models\\Patient.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T04:36:27.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Models\\Admin.cs",
+              "RelativeToolTip": "Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T04:48:55.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Services\\IAdminService.cs",
+              "RelativeDocumentMoniker": "Services\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Services\\IAdminService.cs",
+              "RelativeToolTip": "Services\\IAdminService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T06:41:39.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IPatientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Repositories\\IPatientRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IPatientRepository.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Repositories\\IPatientRepository.cs",
+              "RelativeToolTip": "Repositories\\IPatientRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T07:09:51.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IPatientService.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Services\\IPatientService.cs",
+              "RelativeDocumentMoniker": "Services\\IPatientService.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\Services\\IPatientService.cs",
+              "RelativeToolTip": "Services\\IPatientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T07:11:09.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SmsService.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\SmsService\\SmsService.cs",
+              "RelativeDocumentMoniker": "SmsService\\SmsService.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\SmsService\\SmsService.cs",
+              "RelativeToolTip": "SmsService\\SmsService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T06:36:18.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\PaymentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\PaymentDto.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\PaymentDto.cs",
+              "RelativeToolTip": "DTOs\\PaymentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T18:40:11.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T06:44:14.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20250119163432_demo.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\source\\repos\\HealthcareApi\\Migrations\\20250119163432_demo.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\HealthcareApi\\Migrations\\20250119163432_demo.cs",
+              "ToolTip": "C:\\Users\\2368618\\source\\repos\\HealthcareApi\\Migrations\\20250119163432_demo.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\HealthcareApi\\Migrations\\20250119163432_demo.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T16:34:33.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250119164507_demo.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\source\\repos\\HealthcareApi\\Migrations\\20250119164507_demo.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\HealthcareApi\\Migrations\\20250119164507_demo.cs",
+              "ToolTip": "C:\\Users\\2368618\\source\\repos\\HealthcareApi\\Migrations\\20250119164507_demo.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\HealthcareApi\\Migrations\\20250119164507_demo.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T16:45:08.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PatientRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\PatientRegisterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\PatientRegisterDto.cs",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\DTOs\\PatientRegisterDto.cs",
+              "RelativeToolTip": "DTOs\\PatientRegisterDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T05:04:53.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20250108051646_demo.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\source\\repos\\HealthcareApi\\Migrations\\20250108051646_demo.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\HealthcareApi\\Migrations\\20250108051646_demo.cs",
+              "ToolTip": "C:\\Users\\2368618\\source\\repos\\HealthcareApi\\Migrations\\20250108051646_demo.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\HealthcareApi\\Migrations\\20250108051646_demo.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T05:16:47.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20250108051606_demo.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\source\\repos\\HealthcareApi\\Migrations\\20250108051606_demo.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\HealthcareApi\\Migrations\\20250108051606_demo.cs",
+              "ToolTip": "C:\\Users\\2368618\\source\\repos\\HealthcareApi\\Migrations\\20250108051606_demo.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\HealthcareApi\\Migrations\\20250108051606_demo.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T05:16:07.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20250108051349_demo.cs",
+              "DocumentMoniker": "C:\\Users\\2368618\\source\\repos\\HealthcareApi\\Migrations\\20250108051349_demo.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\HealthcareApi\\Migrations\\20250108051349_demo.cs",
+              "ToolTip": "C:\\Users\\2368618\\source\\repos\\HealthcareApi\\Migrations\\20250108051349_demo.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\HealthcareApi\\Migrations\\20250108051349_demo.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T05:13:49.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "HealthcareApi.csproj",
+              "DocumentMoniker": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\HealthcareApi.csproj",
+              "RelativeDocumentMoniker": "HealthcareApi.csproj",
+              "ToolTip": "C:\\Users\\2368618\\Downloads\\HealthcareApi-Backend\\HealthcareApi\\HealthcareApi.csproj",
+              "RelativeToolTip": "HealthcareApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-08T04:34:33.897Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

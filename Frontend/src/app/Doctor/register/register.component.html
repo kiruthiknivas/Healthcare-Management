@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<body>
+    <section class="container">
+        <div class="login-container">
+            <div class="circle circle-one"></div>
+            <div class="form-container">
+                <h1 class="opacity">DOCTOR REGISTER</h1>
+                <form (ngSubmit)="onSubmit()">
+                    <input type="text" name="drName" [(ngModel)]="registerData.drName" placeholder="Doctor Name" required maxlength="100" />
+                    <input type="text" name="specialization" [(ngModel)]="registerData.specialization" placeholder="Specialization" maxlength="100" />
+                    <input type="text" name="licenseNo" [(ngModel)]="registerData.licenseNo" placeholder="License No" required maxlength="50" />
+                    <input type="number" name="drFee" [(ngModel)]="registerData.drFee" placeholder="Doctor Fee" />
+                    <input type="email" name="email" [(ngModel)]="registerData.email" placeholder="Email" required maxlength="100" />
+                    <input type="password" name="password" [(ngModel)]="registerData.password" placeholder="Password" required maxlength="255" />
+                    <input type="text" name="contactNo" [(ngModel)]="registerData.contactNo" placeholder="Contact No" maxlength="15" />
+                    <button class="opacity">SUBMIT</button>
+                </form>
+                <div class="register-forget opacity">
+                    <a routerLink="/login">Already a member? LOGIN</a>
+                </div>
+            </div>
+            <div class="circle circle-two"></div>
+        </div>
+        <div class="theme-btn-container"></div>
+    </section>
+
+    <script>
+        const themes = [
+            {
+                background: "#1A1A2E",
+                color: "#FFFFFF",
+                primaryColor: "#0F3460"
+            },
+            {
+                background: "#461220",
+                color: "#FFFFFF",
+                primaryColor: "#E94560"
+            },
+            {
+                background: "#192A51",
+                color: "#FFFFFF",
+                primaryColor: "#967AA1"
+            },
+            {
+                background: "#F7B267",
+                color: "#000000",
+                primaryColor: "#F4845F"
+            },
+            {
+                background: "#F25F5C",
+                color: "#000000",
+                primaryColor: "#642B36"
+            },
+            {
+                background: "#231F20",
+                color: "#FFF",
+                primaryColor: "#BB4430"
+            }
+        ];
+
+        const setTheme = (theme) => {
+            const root = document.querySelector(":root");
+            root.style.setProperty("--background", theme.background);
+            root.style.setProperty("--color", theme.color);
+            root.style.setProperty("--primary-color", theme.primaryColor);
+            root.style.setProperty("--glass-color", theme.glassColor);
+        };
+
+        const displayThemeButtons = () => {
+            const btnContainer = document.querySelector(".theme-btn-container");
+            themes.forEach((theme) => {
+                const div = document.createElement("div");
+                div.className = "theme-btn";
+                div.style.cssText = `background: ${theme.background}; width: 25px; height: 25px`;
+                btnContainer.appendChild(div);
+                div.addEventListener("click", () => setTheme(theme));
+            });
+        };
+
+        displayThemeButtons();
+    </script>
+</body>
+
+</html>

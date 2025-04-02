@@ -1,0 +1,23 @@
+
+<div class="splash-screen" id="splashScreen">
+    <div class="splash-content">
+        <h1>Hi, Dr.{{ doctorName }}!</h1>
+    </div>
+</div>
+<div class="dashboard-container">
+    <h2>Hi, Dr.{{ doctorName }}!</h2>
+    <div class="dashboard-buttons">
+        <button class="btn" (click)="viewAppointments()">📅 View Appointments</button>
+        <button class="btn" (click)="writePrescription()">📝 Write Prescription</button>
+        <button class="btn" (click)="viewPatients()">👥 View Patients</button>
+    </div>
+</div>
+<script>
+    
+    window.onload = function () {
+        setTimeout(function () {
+            document.getElementById('splashScreen').style.display = 'none';
+            document.getElementById('dashboardContainer').style.display = 'flex';
+        }, 4000); // 4 seconds
+    };
+</script>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Building a Horizontal Navigation Bar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            position: sticky;
+            align-items: center;
+            justify-content: space-between;
+            top: 0px;
+            background: linear-gradient(90deg, rgba(70, 130, 180, 1) 0%, rgba(30, 144, 255, 1) 100%);
+            color: white;
+            padding: 10px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+        }
+
+        .nav-list {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-list li {
+            margin-right: 20px;
+            position: relative;
+        }
+
+        .nav-list li:last-child {
+            margin-right: 0;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+            padding: 10px 15px;
+            border-radius: 25px;
+        }
+
+        .nav-list li a:hover {
+            color: #ffd700;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 5px;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #575757;
+        }
+
+        .nav-list li:hover .dropdown-content {
+            display: block;
+        }
+
+        .rightNav {
+            text-align: right;
+        }
+
+        #search {
+            padding: 8px;
+            font-size: 16px;
+            border: 2px solid #978afb;
+            border-radius: 5px;
+        }
+
+        .btn {
+            background-color: #ffd700;
+            color: #000;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .btn:hover {
+            background-color: #000;
+            color: #ffd700;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a routerLink="Home">Home</a></li>
+            <li><a routerLink="About">About Us</a></li>
+            <li><a routerLink="Contact">Contact</a></li>
+            <li>
+                <a href="#">Login</a>
+                <div class="dropdown-content">
+                    <a routerLink="Patient/Login">Patient</a>
+                    <a routerLink="Doctor/Login">Doctor</a>
+                    <a routerLink="Admin/Login">Admin</a>
+                </div>
+            </li>
+            <li>
+                <a href="#">Register</a>
+                <div class="dropdown-content">
+                    <a routerLink="Patient/register">Patient</a>
+                    <a routerLink="Doctor/Register">Doctor</a>
+                </div>
+            </li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="search" id="search" placeholder="Book Appointment">
+            <button class="btn btn-sm" routerLink="Patient/Login">Login</button>
+        </div>
+    </nav>
+</body>
+
+</html>

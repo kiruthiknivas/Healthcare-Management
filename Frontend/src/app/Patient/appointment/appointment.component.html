@@ -1,0 +1,19 @@
+<div class="container">
+    <h2>Book Appointment</h2>
+    <form (ngSubmit)="bookAppointment()">
+        <label for="doctor">Doctor:</label>
+        <select id="doctor" [(ngModel)]="appointment.DoctorID" name="doctor" required>
+            <option *ngFor="let doctor of doctors" [value]="doctor.doctorID">
+                {{ doctor.drName }} - {{ doctor.specialization }} - Fee : {{doctor.drFee}}
+            </option>
+        </select>
+
+        <label for="appointmentDate">Appointment Date:</label>
+        <input type="datetime-local" id="appointmentDate" [(ngModel)]="appointment.AppointmentDate" name="appointmentDate" required>
+
+        <label for="summary">Summary:</label>
+        <textarea id="summary" [(ngModel)]="appointment.Summary" name="summary" required></textarea>
+
+        <button type="submit">Book Appointment</button>
+    </form>
+</div>

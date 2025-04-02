@@ -1,0 +1,12 @@
+<div class="container">
+    <h2>View Patients</h2>
+    <div class="patient-card" *ngFor="let patient of patients">
+      <div class="patient-details">
+        <p><strong>Patient ID:</strong> {{ patient.patientID }}</p>
+        <p><strong>Name:</strong> {{ patient.firstName }}</p>
+        <p><strong>Gender:</strong> {{ patient.gender }}</p>
+        <p><strong>Contact:</strong> {{ patient.contactNo }}</p>
+        <p><strong>Email:</strong> {{ patient.email }}</p>
+      </div>
+    </div>
+  </div>

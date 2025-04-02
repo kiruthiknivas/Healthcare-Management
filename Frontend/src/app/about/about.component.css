@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #007bff;
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a.active {
+    text-decoration: underline;
+}
+
+.marquee {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.about-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.about-card h1, .about-card h2 {
+    color: #007bff;
+}
+
+.about-card p, .about-card ul {
+    color: #333;
+    line-height: 1.6;
+}
+
+.about-card ul {
+    padding-left: 1.5rem;
+}
+
+.about-card ul li {
+    margin-bottom: 0.5rem;
+}

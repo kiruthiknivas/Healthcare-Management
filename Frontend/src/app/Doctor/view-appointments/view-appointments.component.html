@@ -1,0 +1,16 @@
+<div class="appointments-container">
+    <h2>View Appointments</h2>
+    <div class="appointment-card" *ngFor="let appointment of appointments">
+      <div class="appointment-details">
+        <p><strong>Patient ID:</strong> {{ appointment.patientID }}</p>
+        <p><strong>Appointment ID:</strong> {{ appointment.appointmentID }}</p>
+        <p><strong>Appointment Date:</strong> {{ appointment.appointmentDate | date: 'dd/MM/yyyy hh:mm a' }}</p>
+        <p><strong>Summary:</strong> {{ appointment.summary }}</p>
+      </div>
+      <div class="appointment-actions">
+        <button class="btn approve" (click)="approveAppointment(appointment.appointmentID)">Approve</button>
+        <button class="btn reject" (click)="rejectAppointment(appointment.appointmentID)">Reject</button>
+        <button class="btn write-prescription" (click)="writePrescription()">Write Prescription</button>
+      </div>
+    </div>
+  </div>

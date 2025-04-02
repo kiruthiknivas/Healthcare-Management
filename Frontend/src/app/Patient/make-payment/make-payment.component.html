@@ -1,0 +1,24 @@
+<div class="container">
+    <h2>Make Payment</h2>
+    <div class="form-group">
+      <label for="appointmentID">Appointment ID:</label>
+      <input type="number" id="appointmentID" [(ngModel)]="appointmentID" />
+    </div>
+    <div class="form-group">
+      <label for="amountPaid">Amount Paid:</label>
+      <input type="number" id="amountPaid" [(ngModel)]="amountPaid" />
+    </div>
+    <div class="form-group">
+      <label for="paymentType">Payment Type:</label>
+      <select id="paymentType" [(ngModel)]="paymentType">
+        <option value="netbanking">Net Banking</option>
+        <option value="upi">UPI</option>
+        <option value="neft">NEFT</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="transactionId">Transaction ID:</label>
+      <input type="text" id="transactionId" [(ngModel)]="transactionId" />
+    </div>
+    <button (click)="submitPayment()">Submit Payment</button>
+  </div>

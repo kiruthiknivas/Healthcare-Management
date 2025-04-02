@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1538137524007-21e48fa42f3f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ac9fa0975bd2ebad7afd906c5a3a15ab&auto=format&fit=crop&w=1834&q=80);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-container {
+  position: relative;
+  width: 400px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.circle-one {
+  width: 200px;
+  height: 200px;
+  top: -50px;
+  left: -50px;
+}
+
+.circle-two {
+  width: 150px;
+  height: 150px;
+  bottom: -50px;
+  right: -50px;
+}
+
+.form-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.illustration {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.opacity {
+  opacity: 0.8;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #000; /* Set input text color to black */
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #ccc; /* Set placeholder text color */
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #0F3460;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.register-forget {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.register-forget a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.theme-btn-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.theme-btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
